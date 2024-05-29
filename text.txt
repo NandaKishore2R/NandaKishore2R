@@ -6,3 +6,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
+
+// delete buttoin
+<button className="delete-btn" onClick={deleteTask}>
+          <i class="material-icons">delete</i>Delete
+        </button>
+
+//edit button
+<button className="edit-btn" style={{ fontSize: "20px" }}>
+            &#x270D; Edit
+          </button>
+
+// add button
+<button className="addMovieBtn fa" onClick={addNewMovie}>
+          &#xf0fe; New Movie
+        </button>
